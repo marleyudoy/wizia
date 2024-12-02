@@ -54,7 +54,7 @@ function Navbar() {
             Book a Demo
           </button>
           <button className="btn border border-gray-300 hover:border hover:border-secondaryColor1">
-            Book a Demo
+            Contact Us
           </button>
         </NavbarItem>
       </NavbarContent>
@@ -80,7 +80,7 @@ function Navbar() {
             Book a Demo
           </button>
           <button className="btn border border-gray-300 hover:border text-white hover:border-secondaryColor1">
-            Book a Demo
+            Contact us
           </button>
         </NavbarItem>
       </NavbarMenu>
