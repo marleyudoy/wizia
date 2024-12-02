@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import BrandLogo from "./BrandLogo";
 import Services from "./Services";
 import Trains from "./Trains";
+import Review from "./Review";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <BrandLogo />
       <Services />
       <Trains />
+      <Review />
     </>
   );
 }
