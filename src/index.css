@@ -3,5 +3,17 @@
 @tailwind components;
 
 .btn {
-  @apply py-[6px] lg:py-[10px] px-[12px] lg:px-[16px] !rounded-full  hover:!scale-[0.9] transition
+  @apply py-[6px] lg:py-[10px] px-[12px] lg:px-[16px] !rounded-full  hover:!scale-[0.9] transition;
+}
+.heading3 {
+  @apply text-[16px] md:text-[24px] font-[400px]  text-secondaryColor1 py-2;
+}
+.heading1 {
+  @apply text-[44px] md:text-[64px] leading-[50px] md:leading-[72px] pb-5
+}
+.normalText{
+  @apply text-[18px] md:text-[20px] text-gray-300
+}
+.smallText{
+  @apply text-[16px]
 }

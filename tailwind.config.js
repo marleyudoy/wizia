@@ -7,11 +7,10 @@ export default {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    screens:{
-      sm:"560px",
-      md:"760px",
+    screens: {
+      sm: "560px",
+      md: "760px",
       lg: "1024px",
-      xl: "1240px",
     },
     container: {
       center: true,
@@ -23,6 +22,7 @@ export default {
       colors: {
         primaryColor1: "#02242A",
         primaryColor2: "#07292F",
+        primaryColor3: "#002228",
         secondaryColor1: "#0FF1F6",
       },
     },

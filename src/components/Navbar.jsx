@@ -17,7 +17,7 @@ function Navbar() {
     <Nav
       disableAnimation={false}
       isBordered
-      className="bg-primaryColor1 text-white"
+      className="bg-primaryColor1 text-white "
     >
       <NavbarContent className="md:hidden pr-3" justify="center">
         <NavbarBrand>
