@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+.btn {
+  @apply py-[6px] lg:py-[10px] px-[12px] lg:px-[16px] !rounded-full  hover:!scale-[0.9] transition
+}
