@@ -8,7 +8,7 @@ import {
   NavbarContent,
   NavbarItem,
 } from "@nextui-org/react";
-import webLogo from "../assets/logo.png";
+import webLogo from "../assets/Logo.png";
 import { Link } from "react-router-dom";
 
 function Navbar() {
