@@ -1,5 +1,5 @@
 import React from "react";
-import Section from "./globalUsesComponetns/Section";
+import Section from "../globalUsesComponetns/Section";
 import logo from "../assets/Logo.png";
 
 function Footer() {

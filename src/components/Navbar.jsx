@@ -21,7 +21,9 @@ function Navbar() {
     >
       <NavbarContent className="md:hidden pr-3" justify="center">
         <NavbarBrand>
-          <img src={webLogo} alt="" />
+          <Link to="/">
+            <img src={webLogo} alt="" />
+          </Link>
         </NavbarBrand>
       </NavbarContent>
 
@@ -30,7 +32,9 @@ function Navbar() {
         justify="center"
       >
         <NavbarBrand>
-          <img src={webLogo} alt="" />
+          <Link to="/">
+            <img src={webLogo} alt="" />
+          </Link>
         </NavbarBrand>
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
