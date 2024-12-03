@@ -5,6 +5,7 @@ import Services from "./Services";
 import Trains from "./Trains";
 import Review from "./Review";
 import Effort from "./Effort";
+import GetStarted from "./GetStarted";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Trains />
       <Review />
       <Effort />
+      <GetStarted />
     </>
   );
 }
