@@ -1,6 +1,6 @@
 import React from "react";
 import Section from "../../globalUsesComponetns/Section";
-import vectorarr from "../../assets/Home/icon/vector.png";
+import vectorarr from "../../assets/Home/icon/Vector.png";
 
 function GetStarted() {
   return (
