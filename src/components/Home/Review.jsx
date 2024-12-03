@@ -15,6 +15,13 @@ function Review() {
     {
       image: qute,
       quote:
+        "i am student of habluprogrammer.my teacher Eshan Ahmmed Ahad and Tutul. they are good Teacher",
+      name: "Sayed Rabiul Haque Udoy",
+      position: "Student Of Hablu Programmer",
+    },
+    {
+      image: qute,
+      quote:
         "Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
       name: "John Doe",
       position: "Chief Strategy Officer @ Company",
@@ -41,12 +48,10 @@ function Review() {
             onSwiper={(swiper) => (swiperRef.current = swiper)}
             modules={[Navigation, Autoplay]}
             loop={true}
-            autoplay={
-            {
+            autoplay={{
               delay: 3000,
-              disableOnInteraction: false
-            }
-            }
+              disableOnInteraction: false,
+            }}
             pagination={{ clickable: true }}
             spaceBetween={30}
             slidesPerView={1}
